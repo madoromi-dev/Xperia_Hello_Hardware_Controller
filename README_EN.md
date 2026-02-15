@@ -14,8 +14,6 @@
 
 This project provides a Java-based hardware controller, a motion player for animations, and a demo app designed to revive the hardware functionality of Sony's "Xperia Hello!" (G1209 / codename: Bright), which has become non-functional due to the termination of its official services.
 
-You can see the controller in action on [YouTube Shorts](https://youtube.com/shorts/Syec_pLMPwQ).
-
 ### Background
 
 Since its service ended on March 31, 2023, "Xperia Hello!" has lost all of its functions, including basic communication. This project began when I happened to find the device at a bargain price on a flea market site and bought it, impressed by its high build quality. Fortunately, a predecessor had already published the communication protocols and a control method using Kotlin. Based on their findings, I developed this controller by rewriting it in Java, fixing crashes, and optimizing movements. Additionally, I implemented a JSON-based Motion Player to make it easier to execute animations like nodding or winking from an app.
@@ -98,5 +96,6 @@ SOFTWARE.
 ### Project License
 
 This software is released under the [MIT License](LICENSE.txt).
+
 
 
